@@ -1,0 +1,38 @@
+.container {
+  margin: 20px;
+}
+
+.horizontal-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.horizontal-menu li {
+  display: inline-block;
+}
+
+.horizontal-menu li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.horizontal-menu li,
+li.draggable-mirror {
+  border: 1px solid black;
+  padding: 10px !important;
+  margin: 0 5px !important;
+  width: 100px !important;
+  text-align: center;
+  cursor: grab;
+  list-style: none;
+  line-height: 20px;
+  height: 20px !important;
+  font-weight: bold;
+  color: #fff;
+}
+
+.horizontal-menu li:active {
+  cursor: grabbing;
+}
