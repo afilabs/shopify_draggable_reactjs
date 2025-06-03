@@ -16,7 +16,7 @@ function App() {
   const handleSwap = (oldIndex, newIndex) => {
     [blocks[oldIndex], blocks[newIndex]] = [blocks[newIndex], blocks[oldIndex]];
     setBlocks([...blocks]);
-  };ty
+  };
 
   return (
     <div className="container">
